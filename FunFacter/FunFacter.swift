@@ -1,5 +1,5 @@
 
-// FunFacter: The most compact and worst-coded thing possible
+// FunFacter: The worst-coded thing possible
 
 import SwiftUI
 
@@ -16,16 +16,15 @@ struct CrewMember: Identifiable { var selected = false; let textView: Text; let 
         ZStack {
             Color(white: 0.4)
             Circle().fill(Color.white)
-                .frame(width: radius * 2, height: radius * 2, alignment: .center)
-                .shadow(radius: 6, y: 4)
+                .frame(width: radius * 2, height: radius * 2, alignment: .center).shadow(radius: 6, y: 4)
             ZStack {
                 Button(action: {
                     randomIndex = Int.random(in: 0 ..< railCrew.count)
                     spinClicked.toggle()
                     DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
                         railCrew[(railCrew.count - 1) - randomIndex].selected = true
-                    }
-                }, label: { Text("Spin it!") }).disabled(spinClicked)
+                    }}, label: { Text("Spin it!") .font(.system(size:30)).padding(20.0) .foregroundColor(Color.white).contentShape(Rectangle())
+                }).background(Color.orange) .cornerRadius(50).buttonStyle(PlainButtonStyle()).animation(.none) .disabled(spinClicked)
                 Circle().stroke(style: StrokeStyle(lineWidth: 3, dash: [radius, 25] )).fill(Color.gray)
                     .frame(width: radius * 5/4, height: radius * 5/4, alignment: .center)
                 Text("🚂").font(.system(size:40)).transformEffect(.init(translationX: 0, y: radius * -4/5))
