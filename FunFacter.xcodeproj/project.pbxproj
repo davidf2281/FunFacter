@@ -10,26 +10,7 @@
 		8C5901D22617D06E00ACBF3E /* FunFacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5901D12617D06E00ACBF3E /* FunFacter.swift */; };
 		8C5901D62617D07100ACBF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5901D52617D07100ACBF3E /* Assets.xcassets */; };
 		8C5901D92617D07100ACBF3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5901D82617D07100ACBF3E /* Preview Assets.xcassets */; };
-		8C5901E52617D07100ACBF3E /* FunFacterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5901E42617D07100ACBF3E /* FunFacterTests.swift */; };
-		8C5901F02617D07100ACBF3E /* FunFacterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5901EF2617D07100ACBF3E /* FunFacterUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8C5901E12617D07100ACBF3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8C5901C62617D06E00ACBF3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C5901CD2617D06E00ACBF3E;
-			remoteInfo = FunFacter;
-		};
-		8C5901EC2617D07100ACBF3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8C5901C62617D06E00ACBF3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8C5901CD2617D06E00ACBF3E;
-			remoteInfo = FunFacter;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8C5901CE2617D06E00ACBF3E /* FunFacter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,30 +19,10 @@
 		8C5901D82617D07100ACBF3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C5901DA2617D07100ACBF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C5901DB2617D07100ACBF3E /* FunFacter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FunFacter.entitlements; sourceTree = "<group>"; };
-		8C5901E02617D07100ACBF3E /* FunFacterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFacterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C5901E42617D07100ACBF3E /* FunFacterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFacterTests.swift; sourceTree = "<group>"; };
-		8C5901E62617D07100ACBF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C5901EB2617D07100ACBF3E /* FunFacterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFacterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C5901EF2617D07100ACBF3E /* FunFacterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFacterUITests.swift; sourceTree = "<group>"; };
-		8C5901F12617D07100ACBF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C5901CB2617D06E00ACBF3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C5901DD2617D07100ACBF3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C5901E82617D07100ACBF3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +36,6 @@
 			isa = PBXGroup;
 			children = (
 				8C5901D02617D06E00ACBF3E /* FunFacter */,
-				8C5901E32617D07100ACBF3E /* FunFacterTests */,
-				8C5901EE2617D07100ACBF3E /* FunFacterUITests */,
 				8C5901CF2617D06E00ACBF3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				8C5901CE2617D06E00ACBF3E /* FunFacter.app */,
-				8C5901E02617D07100ACBF3E /* FunFacterTests.xctest */,
-				8C5901EB2617D07100ACBF3E /* FunFacterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,24 +68,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8C5901E32617D07100ACBF3E /* FunFacterTests */ = {
-			isa = PBXGroup;
-			children = (
-				8C5901E42617D07100ACBF3E /* FunFacterTests.swift */,
-				8C5901E62617D07100ACBF3E /* Info.plist */,
-			);
-			path = FunFacterTests;
-			sourceTree = "<group>";
-		};
-		8C5901EE2617D07100ACBF3E /* FunFacterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8C5901EF2617D07100ACBF3E /* FunFacterUITests.swift */,
-				8C5901F12617D07100ACBF3E /* Info.plist */,
-			);
-			path = FunFacterUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,42 +88,6 @@
 			productReference = 8C5901CE2617D06E00ACBF3E /* FunFacter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8C5901DF2617D07100ACBF3E /* FunFacterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8C5901F72617D07100ACBF3E /* Build configuration list for PBXNativeTarget "FunFacterTests" */;
-			buildPhases = (
-				8C5901DC2617D07100ACBF3E /* Sources */,
-				8C5901DD2617D07100ACBF3E /* Frameworks */,
-				8C5901DE2617D07100ACBF3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8C5901E22617D07100ACBF3E /* PBXTargetDependency */,
-			);
-			name = FunFacterTests;
-			productName = FunFacterTests;
-			productReference = 8C5901E02617D07100ACBF3E /* FunFacterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8C5901EA2617D07100ACBF3E /* FunFacterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8C5901FA2617D07100ACBF3E /* Build configuration list for PBXNativeTarget "FunFacterUITests" */;
-			buildPhases = (
-				8C5901E72617D07100ACBF3E /* Sources */,
-				8C5901E82617D07100ACBF3E /* Frameworks */,
-				8C5901E92617D07100ACBF3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8C5901ED2617D07100ACBF3E /* PBXTargetDependency */,
-			);
-			name = FunFacterUITests;
-			productName = FunFacterUITests;
-			productReference = 8C5901EB2617D07100ACBF3E /* FunFacterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,14 +99,6 @@
 				TargetAttributes = {
 					8C5901CD2617D06E00ACBF3E = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					8C5901DF2617D07100ACBF3E = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 8C5901CD2617D06E00ACBF3E;
-					};
-					8C5901EA2617D07100ACBF3E = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 8C5901CD2617D06E00ACBF3E;
 					};
 				};
 			};
@@ -221,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				8C5901CD2617D06E00ACBF3E /* FunFacter */,
-				8C5901DF2617D07100ACBF3E /* FunFacterTests */,
-				8C5901EA2617D07100ACBF3E /* FunFacterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,20 +130,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C5901DE2617D07100ACBF3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C5901E92617D07100ACBF3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,36 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C5901DC2617D07100ACBF3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C5901E52617D07100ACBF3E /* FunFacterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C5901E72617D07100ACBF3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C5901F02617D07100ACBF3E /* FunFacterUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8C5901E22617D07100ACBF3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8C5901CD2617D06E00ACBF3E /* FunFacter */;
-			targetProxy = 8C5901E12617D07100ACBF3E /* PBXContainerItemProxy */;
-		};
-		8C5901ED2617D07100ACBF3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8C5901CD2617D06E00ACBF3E /* FunFacter */;
-			targetProxy = 8C5901EC2617D07100ACBF3E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8C5901F22617D07100ACBF3E /* Debug */ = {
@@ -457,90 +307,6 @@
 			};
 			name = Release;
 		};
-		8C5901F82617D07100ACBF3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UE24L5QUH7;
-				INFOPLIST_FILE = FunFacterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.davidfearon.FunFacterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFacter.app/Contents/MacOS/FunFacter";
-			};
-			name = Debug;
-		};
-		8C5901F92617D07100ACBF3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UE24L5QUH7;
-				INFOPLIST_FILE = FunFacterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.davidfearon.FunFacterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFacter.app/Contents/MacOS/FunFacter";
-			};
-			name = Release;
-		};
-		8C5901FB2617D07100ACBF3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UE24L5QUH7;
-				INFOPLIST_FILE = FunFacterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.davidfearon.FunFacterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = FunFacter;
-			};
-			name = Debug;
-		};
-		8C5901FC2617D07100ACBF3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UE24L5QUH7;
-				INFOPLIST_FILE = FunFacterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.davidfearon.FunFacterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = FunFacter;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,24 +324,6 @@
 			buildConfigurations = (
 				8C5901F52617D07100ACBF3E /* Debug */,
 				8C5901F62617D07100ACBF3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8C5901F72617D07100ACBF3E /* Build configuration list for PBXNativeTarget "FunFacterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C5901F82617D07100ACBF3E /* Debug */,
-				8C5901F92617D07100ACBF3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8C5901FA2617D07100ACBF3E /* Build configuration list for PBXNativeTarget "FunFacterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C5901FB2617D07100ACBF3E /* Debug */,
-				8C5901FC2617D07100ACBF3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
