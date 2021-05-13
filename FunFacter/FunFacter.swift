@@ -3,7 +3,8 @@
 
 import SwiftUI
 
-let names = ["Heather", "Phil", "Farooq", "Dan", "Robert", "Paul", "Sam", "David", "Issy"]
+//let names = ["Heather", "Phil", "Farooq", "Dan", "Robert", "Paul", "Sam", "David", "Issy"]
+let names = ["Heather", "Phil", "Farooq", "Dan", "Edson", "Tolga"]
 
 struct CrewMember: Identifiable { var selected = false; let textView: Text; let id = UUID() }
 @main struct FunFacter: App {
