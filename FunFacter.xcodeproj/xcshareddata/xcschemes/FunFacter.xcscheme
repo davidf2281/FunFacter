@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C5901CD2617D06E00ACBF3E"
-               BuildableName = "FunFacter.app"
-               BlueprintName = "FunFacter"
+               BuildableName = "ChooChooser &#x1f682;.app"
+               BlueprintName = "ChooChooser &#x1f682;"
                ReferencedContainer = "container:FunFacter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C5901CD2617D06E00ACBF3E"
-            BuildableName = "FunFacter.app"
-            BlueprintName = "FunFacter"
+            BuildableName = "ChooChooser &#x1f682;.app"
+            BlueprintName = "ChooChooser &#x1f682;"
             ReferencedContainer = "container:FunFacter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -82,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C5901CD2617D06E00ACBF3E"
-            BuildableName = "FunFacter.app"
-            BlueprintName = "FunFacter"
+            BuildableName = "ChooChooser &#x1f682;.app"
+            BlueprintName = "ChooChooser &#x1f682;"
             ReferencedContainer = "container:FunFacter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -12,7 +12,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C5901CE2617D06E00ACBF3E /* FunFacter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5901CE2617D06E00ACBF3E /* ChooChooser 🚂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChooChooser 🚂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5901D12617D06E00ACBF3E /* FunFacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFacter.swift; sourceTree = "<group>"; };
 		8C5901D82617D07100ACBF3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C5901DA2617D07100ACBF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		8C5901CF2617D06E00ACBF3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C5901CE2617D06E00ACBF3E /* FunFacter.app */,
+				8C5901CE2617D06E00ACBF3E /* ChooChooser 🚂.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,9 +68,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C5901CD2617D06E00ACBF3E /* FunFacter */ = {
+		8C5901CD2617D06E00ACBF3E /* ChooChooser 🚂 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C5901F42617D07100ACBF3E /* Build configuration list for PBXNativeTarget "FunFacter" */;
+			buildConfigurationList = 8C5901F42617D07100ACBF3E /* Build configuration list for PBXNativeTarget "ChooChooser 🚂" */;
 			buildPhases = (
 				8C5901CA2617D06E00ACBF3E /* Sources */,
 				8C5901CB2617D06E00ACBF3E /* Frameworks */,
@@ -80,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = FunFacter;
+			name = "ChooChooser 🚂";
 			productName = FunFacter;
-			productReference = 8C5901CE2617D06E00ACBF3E /* FunFacter.app */;
+			productReference = 8C5901CE2617D06E00ACBF3E /* ChooChooser 🚂.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C5901CD2617D06E00ACBF3E /* FunFacter */,
+				8C5901CD2617D06E00ACBF3E /* ChooChooser 🚂 */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C5901F42617D07100ACBF3E /* Build configuration list for PBXNativeTarget "FunFacter" */ = {
+		8C5901F42617D07100ACBF3E /* Build configuration list for PBXNativeTarget "ChooChooser 🚂" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C5901F52617D07100ACBF3E /* Debug */,
